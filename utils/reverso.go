@@ -1,4 +1,4 @@
-package strings
+package utils
 
 // Reverso retorna uma string com os caracteres invertido em relação a string passada.
 func Reverso(s string) string {
