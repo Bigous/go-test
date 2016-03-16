@@ -1,10 +1,7 @@
-package main
+package strings
 
-import (
-	"fmt"
-)
-
-func reverso(s string) string {
+// Reverso retorna uma string com os caracteres invertido em relação a string passada.
+func Reverso(s string) string {
 	var (
 		r []rune;
 		i, j, t int;
@@ -12,11 +9,7 @@ func reverso(s string) string {
 	r = []rune(s);
 	t = len(r);
 	for i, j = 0, t-1; i < t/2; i, j = i+1, j-1 {
-		r[i], r[j] = r[j], r[i]
+		r[i], r[j] = r[j], r[i];
 	}
-	return string(r)
-}
-
-func main() {
-	fmt.Printf(reverso("Olá golang."))
+	return string(r);
 }
