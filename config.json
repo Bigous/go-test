@@ -1,0 +1,5 @@
+{
+	"url":       "http://172.28.189.39:3000/desligamentoProgramadoGetTotalItens",
+	"type":  "application/json",
+	"value": "{\"CodEmpresa\": \"0007\"}"
+}
