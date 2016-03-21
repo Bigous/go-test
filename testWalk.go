@@ -2,14 +2,14 @@ package main
 
 import (
 	"github.com/lxn/walk"
-	"github.com/lxn/walk/declarative"
+	. "github.com/lxn/walk/declarative"
 	"strings"
 )
 
 func main() {
 	var inTE, outTE *walk.TextEdit
 
-	declarative.MainWindow{
+	MainWindow{
 		Title:   "SCREAMO",
 		MinSize: Size{600, 400},
 		Layout:  VBox{},
